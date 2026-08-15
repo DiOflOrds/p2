@@ -25,4 +25,8 @@ K1 (BB umgesetzt + nachvollziehbar) ✓ · K2 (Warnmail real): Mechanik verifizi
 
 1. G1 lief per Session-Dialog statt Inbox (zulässig, Präzedenz P0-D009) — der Inbox-Zähler wächst dafür mit diesem G4-DR. 2. CI-Katalog-Gate ist erst nach der PAT-Erweiterung grün — bis dahin bricht der neue CI-Lauf beim p2/process/produkt-Checkout ab (klare Meldung). 3. D001-Duplikat von heute ist durch SWR-039 künftig unmöglich — Wirksamkeit per API-Test belegt, realer Gegencheck empfohlen (Stichprobe).
 
+## Nachtrag (2026-08-15, nach dem Push)
+
+Zweiter realer SUP.9-Zyklus **T-0013**: CI-Rot nach dem Sprint-Push — (a) Tag-Läufe prüften alte Commits gegen heutige Repos (Rauschen; alle 5 Workflows auf `branches: [main]` begrenzt), (b) der neue Katalog-Check sah im CI keine Tags (Checkout-Default; `fetch-tags` ergänzt). Gleiche Fehlerklasse wie T-0002 — bestätigt Retro-Maßnahme 1 (Umgebungs-Blindflug).
+
 ## Entscheidungsbedarf: G4 Sprint 1 → Inbox-DR T-0012
