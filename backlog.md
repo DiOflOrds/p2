@@ -1,16 +1,16 @@
-# Backlog P2 „Betriebshärtung" (v0 — Detaillierung im Sprint-0-Planning nach G0)
+# Backlog P2 „Betriebshärtung" (v1 — Sprint-0-Planning, T-0003)
 
-## Sprint 0 (nach G0): Anforderungen + Planung
+## Sprint 0 (läuft): Fundament — erledigt bis auf G1
 
-P2-E2/E4/E6 requirements-first (SWR-Erweiterung Plattform-Baseline, Fortsetzung Nummerierung) → G1; E1/E3/E5 als Doku-/Prozess-Tickets planen.
+T-0001 G0 (D000; D001-Duplikat vermerkt) · T-0002 ungeplanter SUP.9-Zyklus (Team-Node-Befund) · T-0003 Planning · T-0004 STK-014 + SWR-034–039 · T-0005 G1-DR (Inbox).
 
-## Sprint 1: Kern-Härtung
+## Sprint 1 (nach G1): Kern-Härtung
 
-E1 Runbook-Checkliste · E2 Frist-Warnung (Umsetzung + realer Nachweis, BB-6) · E3 Geräteregister-Toolchain · E4 Katalog-CI.
+E2 Frist-Warnung SWR-034/035 (realer Nachweis am nächsten offenen DR) · E4 Katalog-Check SWR-036 + CI-Gate · E6 SWR-037–039 (Registry, Entscheider-Pflicht, Inbox-Härtung — verhindert D001-Wiederholung) · E1 Runbook-Checkliste (Doku, aus T-0002-Lehre) · E3 Geräteregister-Toolchain (Doku).
 
 ## Sprint 2: Ausbau + Abnahme
 
-E5 Aufwandsschätzung light (ab Sprint 2 selbst gelebt) · E6 Rechteverwaltung light · Abnahme gegen die 5 Kriterien (G3/G4 via Inbox).
+E5 Aufwandsschätzung light (in Sprint 2 erstmals selbst gelebt: Schätzung im Planning, Ist im Report) · Abnahme gegen die 5 Kriterien (G3/G4 via Inbox).
 
 ## Nicht zugeordnet (P0-Überhang, bei Gelegenheit)
 
