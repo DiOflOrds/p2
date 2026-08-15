@@ -1,9 +1,19 @@
 # Board (generiert von platform/scripts/board.py — nicht von Hand editieren)
 
-Stand: 2026-08-15 · Tickets: 5
+Stand: 2026-08-15 · Tickets: 11
 
 
-## done (5)
+## open (5)
+
+| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
+|---|---|---|---|---|---|---|
+| [T-0007](tickets/T-0007.md) | SWE.3: Frist-Warnung im DR-Benachrichtigungslauf (SWR-034/035) + Tests | task | dev | hoch | 1 | — |
+| [T-0008](tickets/T-0008.md) | SWE.3: Katalog-Check (SWR-036) + Gate in abschluss.cmd und platform-CI | task | dev | hoch | 1 | — |
+| [T-0009](tickets/T-0009.md) | SWE.3: Nutzer-Registry, Entscheider-Pflicht, Inbox-Härtung (SWR-037–039) + Tests | task | dev | hoch | 1 | — |
+| [T-0010](tickets/T-0010.md) | SUP.8/Doku: Runbook-Checkliste „externen Dienst einrichten" (E1/BB-2) | task | cm | mittel | 1 | — |
+| [T-0011](tickets/T-0011.md) | SUP.8/Doku: Geräteregister um Soll-Toolchain je Einsatzzweck ergänzen (E3/BB-4) | task | cm | mittel | 1 | — |
+
+## done (6)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
@@ -12,3 +22,4 @@ Stand: 2026-08-15 · Tickets: 5
 | [T-0003](tickets/T-0003.md) | MAN.3: Sprint-0-Planning — plan.md, backlog v1, Sprint-1-Zuschnitt | task | pl | hoch | 0 | — |
 | [T-0004](tickets/T-0004.md) | SWE.1: STK-014 + SWR-034–039 (Frist-Warnung, Katalog-Check, Nutzer/Inbox-Härtung) → reviewed | task | rm | hoch | 0 | — |
 | [T-0005](tickets/T-0005.md) | DR: G1 — Anforderungs-Erweiterung Betriebshärtung (STK-014, SWR-034–039) freigeben | decision-request | pl | hoch | 0 | — |
+| [T-0006](tickets/T-0006.md) | MAN.3: Sprint-1-Planning — Kern-Härtung (SWR-034–039 + E1/E3-Doku) | task | pl | hoch | 1 | — |
