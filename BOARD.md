@@ -3,13 +3,7 @@
 Stand: 2026-08-15 · Tickets: 13
 
 
-## open (1)
-
-| ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
-|---|---|---|---|---|---|---|
-| [T-0012](tickets/T-0012.md) | DR: G4 Sprint 1 — Kern-Härtung abnehmen (Baseline p2-v0.1) | decision-request | pl | hoch | 1 | — |
-
-## done (12)
+## done (13)
 
 | ID | Titel | Typ | Rolle | Prio | Sprint | blockiert durch |
 |---|---|---|---|---|---|---|
@@ -22,6 +16,7 @@ Stand: 2026-08-15 · Tickets: 13
 | [T-0007](tickets/T-0007.md) | SWE.3: Frist-Warnung im DR-Benachrichtigungslauf (SWR-034/035) + Tests | task | dev | hoch | 1 | — |
 | [T-0008](tickets/T-0008.md) | SWE.3: Katalog-Check (SWR-036) + Gate in abschluss.cmd und platform-CI | task | dev | hoch | 1 | — |
 | [T-0009](tickets/T-0009.md) | SWE.3: Nutzer-Registry, Entscheider-Pflicht, Inbox-Härtung (SWR-037–039) + Tests | task | dev | hoch | 1 | — |
+| [T-0012](tickets/T-0012.md) | DR: G4 Sprint 1 — Kern-Härtung abnehmen (Baseline p2-v0.1) | decision-request | pl | hoch | 1 | — |
 | [T-0013](tickets/T-0013.md) | SUP.9: CI rot nach Sprint-1-Push — Tag-Läufe (Rauschen) + Katalog-Check ohne Tags im Checkout | problem | prob | hoch | 1 | — |
 | [T-0010](tickets/T-0010.md) | SUP.8/Doku: Runbook-Checkliste „externen Dienst einrichten" (E1/BB-2) | task | cm | mittel | 1 | — |
 | [T-0011](tickets/T-0011.md) | SUP.8/Doku: Geräteregister um Soll-Toolchain je Einsatzzweck ergänzen (E3/BB-4) | task | cm | mittel | 1 | — |
