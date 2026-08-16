@@ -25,4 +25,12 @@
 
 ## Traceability
 
-STK-014 ← SWR-034–039 (complete; no orphans). DoD checklist applied per SWR (2026-08-15 RM — feasibility ARCH/DEV context, verifiability QM/TEST context). Catalog-CI wiring (workflow) is an implementation task verified by a real CI run, not a separate SWR. G1 pending.
+STK-014 ← SWR-034–039, SWR-084 (complete; no orphans). DoD checklist applied per SWR (2026-08-15 RM — feasibility ARCH/DEV context, verifiability QM/TEST context). Catalog-CI wiring (workflow) is an implementation task verified by a real CI run, not a separate SWR. G1 pending. v1.1: +SWR-084 (Betriebs-CR pm/T-0018 aus Auftraggeber via Session, PM-Beschluss B026).
+
+## Nachtrag v1.1 (Auftraggeber via Session, PM-Beschluss B026)
+
+*Betriebs-CR nach dem P2-Abschluss: Entscheidungen tragen Datum **und** Uhrzeit. Keine neue Projekt-Baseline — `p2-v1.0` bleibt Abnahmereferenz. Ergänzt SWR-038 (was der Endpunkt festhält) um den Zeitpunkt; Frist- und Ticketfelder (`frist`, `erstellt`, `geändert`) bleiben reine Datumsfelder, weil Fristen tagesgenau gelten.*
+
+| ID | Requirement | Trace | Verification | Prio | Status |
+|---|---|---|---|---|---|
+| SWR-084 | The decision endpoint shall record the point in time of every decision as date **and** time of day (`YYYY-MM-DD HH:MM`, server local time) in both the decision log entry and the decision note written into the ticket, so that several decisions taken on the same day remain distinguishable and orderable; the same value shall be used for both writes, and existing date-only entries shall remain valid and readable. | STK-014 | Unit tests (log entry and ticket note carry an identical `YYYY-MM-DD HH:MM` stamp; injected clock verifies the exact value; history endpoint still parses the note) | medium | reviewed |
